@@ -3,7 +3,7 @@ node {
       git 'https://git@github.com/sandip-03/TestWebApp.git'
    }
    stage('Build') {
-      // Run the maven build
+      // Run the maven build as below
       if (isUnix()) {
 	 sh 'mvn -B -DskipTests clean package'
       } else {
