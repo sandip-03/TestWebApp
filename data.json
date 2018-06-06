@@ -1,0 +1,17 @@
+{
+    "name":"Mind",
+    "Environment":[
+        {
+            "env":"Dev",
+            "location":"/dev"
+        },
+        {
+            "env":"Beta",
+            "location":"/beta"
+        },
+		{
+			"env":"Prod"
+			"location":"/prod"
+		}
+    ]
+}
